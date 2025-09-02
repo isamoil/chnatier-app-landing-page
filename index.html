@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title data-translate="app.title">Chantierapp - Plateforme de Gestion de Chantiers</title>
+    <link rel="stylesheet" href="./landing-assets/styles.css">
+    <script src="./landing-assets/scripts/translations.js" defer></script>
+</head>
+<body>
+<!-- Header -->
+<header>
+    <nav class="container">
+        <div class="nav-top-row">
+            <a href="#" class="logo">
+                <img src="./landing-assets/images/Logo+Text.png" alt="Chantierapp" class="logo-image">
+            </a>
+            <div class="nav-right">
+                <div class="language-switcher">
+                    <button class="language-btn" onclick="toggleLanguageDropdown()">
+                        <span id="current-flag">🇫🇷</span>
+                        <span id="current-lang">FR</span>
+                        <span>▼</span>
+                    </button>
+                    <div class="language-dropdown" id="language-dropdown">
+                        <div class="language-option active" data-lang="fr" onclick="changeLanguage('fr', '🇫🇷', 'FR')">
+                            <span>🇫🇷</span> Français
+                        </div>
+                        <div class="language-option" data-lang="en" onclick="changeLanguage('en', '🇺🇸', 'EN')">
+                            <span>🇺🇸</span> English
+                        </div>
+                        <div class="language-option" data-lang="ro" onclick="changeLanguage('ro', '🇷🇴', 'RO')">
+                            <span>🇷🇴</span> Română
+                        </div>
+                        <div class="language-option" data-lang="it" onclick="changeLanguage('it', '🇮🇹', 'IT')">
+                            <span>🇮🇹</span> Italiano
+                        </div>
+                        <div class="language-option" data-lang="es" onclick="changeLanguage('es', '🇪🇸', 'ES')">
+                            <span>🇪🇸</span> Español
+                        </div>
+                        <div class="language-option" data-lang="ru" onclick="changeLanguage('ru', '🇷🇺', 'RU')">
+                            <span>🇷🇺</span> Русский
+                        </div>
+                    </div>
+                </div>
+                <button class="mobile-menu-toggle" onclick="toggleMobileMenu()">☰</button>
+            </div>
+        </div>
+
+        <ul class="nav-links">
+            <li><a href="#features" data-translate="nav.features">Fonctionnalités</a></li>
+            <li><a href="#benefits" data-translate="nav.benefits">Avantages</a></li>
+            <li><a href="#contact" data-translate="nav.contact">Contact</a></li>
+        </ul>
+
+        <div class="nav-bottom-row">
+            <a href="https://chantierapp.com/login" class="login-btn" data-translate="nav.login">Connexion</a>
+            <a href="#contact" class="cta-btn" data-translate="nav.demo">Démo Gratuite</a>
+        </div>
+    </nav>
+</header>
+
+<!-- Hero Section -->
+<section class="hero">
+    <div class="container">
+        <h1 class="fade-in-up" data-translate="hero.title">Gérez vos chantiers avec efficacité</h1>
+        <p class="fade-in-up" data-translate="hero.subtitle">Plateforme complète de gestion de chantiers pour optimiser
+            vos projets, coordonner vos équipes et suivre l'avancement en temps réel.</p>
+        <div class="hero-cta fade-in-up">
+            <a href="#contact" class="btn-primary" data-translate="hero.cta.demo">Demander une démo</a>
+            <a href="#features" class="btn-secondary" data-translate="hero.cta.learn">En savoir plus</a>
+        </div>
+    </div>
+</section>
+
+<!-- Features Section -->
+<section class="features" id="features">
+    <div class="container">
+        <h2 class="fade-in-up" data-translate="features.title">Fonctionnalités principales</h2>
+        <div class="features-grid">
+            <div class="feature-card fade-in-up">
+                <div class="feature-icon">📱</div>
+                <h3 data-translate="features.mobile.title">Application Mobile</h3>
+                <p data-translate="features.mobile.description">Interface mobile intuitive pour que vos équipes puissent
+                    soumettre des rapports, photos et mises à jour directement depuis le terrain.</p>
+            </div>
+            <div class="feature-card fade-in-up">
+                <div class="feature-icon">📊</div>
+                <h3 data-translate="features.dashboard.title">Tableau de Bord Centralisé</h3>
+                <p data-translate="features.dashboard.description">Vue d'ensemble complète de tous vos projets avec
+                    analytics en temps réel, suivi des équipes et gestion des rapports.</p>
+            </div>
+            <div class="feature-card fade-in-up">
+                <div class="feature-icon">📍</div>
+                <h3 data-translate="features.tracking.title">Suivi GPS en Temps Réel</h3>
+                <p data-translate="features.tracking.description">Localisez précisément vos équipes sur le terrain et
+                    optimisez la coordination des interventions avec notre système de géolocalisation.</p>
+            </div>
+            <div class="feature-card fade-in-up">
+                <div class="feature-icon">📋</div>
+                <h3 data-translate="features.reports.title">Rapports Quotidiens</h3>
+                <p data-translate="features.reports.description">Surveillance et gestion en temps réel des rapports
+                    quotidiens des ouvriers, incluant textes et téléchargements de photos.</p>
+            </div>
+            <div class="feature-card fade-in-up">
+                <div class="feature-icon">🏢</div>
+                <h3 data-translate="features.management.title">Gestion Centralisée</h3>
+                <p data-translate="features.management.description">Interface web centralisée pour que les managers et
+                    opérateurs visualisent les rapports détaillés par projet ou à l'échelle de l'entreprise.</p>
+            </div>
+            <div class="feature-card fade-in-up">
+                <div class="feature-icon">⚡</div>
+                <h3 data-translate="features.efficiency.title">Efficacité Opérationnelle</h3>
+                <p data-translate="features.efficiency.description">Amélioration de l'organisation et de l'efficacité
+                    opérationnelle grâce à la surveillance d'activité en temps réel.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- CTA Section -->
+<section class="cta-section" id="contact">
+    <div class="container">
+        <h2 class="fade-in-up" data-translate="cta.title">Prêt à transformer votre gestion de chantiers ?</h2>
+        <p class="fade-in-up" data-translate="cta.subtitle">Rejoignez des centaines d'entreprises qui font confiance à
+            Chantierapp pour optimiser leurs projets de construction.</p>
+        <div class="fade-in-up">
+            <a href="mailto:easy.tech.solutions.srl@gmail.com" class="btn-primary" data-translate="cta.button">Commencer
+                maintenant</a>
+        </div>
+    </div>
+</section>
+
+<!-- Footer -->
+<footer>
+    <div class="container">
+        <div class="footer-content">
+            <div class="logo">
+                <img src="./landing-assets/images/Logo+Text.png" alt="Chantierapp" class="logo-image">
+            </div>
+            <ul class="footer-links">
+                <li><a href="#" data-translate="footer.privacy">Confidentialité</a></li>
+                <li><a href="#" data-translate="footer.terms">Conditions</a></li>
+                <li><a href="mailto:easy.tech.solutions.srl@gmail.com" data-translate="footer.contact">Contact</a></li>
+            </ul>
+            <p data-translate="footer.copyright">&copy; 2025 Chantierapp. Tous droits réservés.</p>
+        </div>
+    </div>
+</footer>
+
+<script src="./landing-assets/scripts/script.js"></script>
+</body>
+</html>
