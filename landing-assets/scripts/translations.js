@@ -93,7 +93,98 @@ const translations = {
         'privacy.contact.title': '11. Nous contacter',
         'privacy.contact.intro': 'Si vous avez des questions ou des préoccupations concernant cette politique de confidentialité ou le traitement de vos données personnelles, n\'hésitez pas à nous contacter :',
         'privacy.contact.email_label': 'E-mail :',
-        'privacy.contact.commitment': 'Nous nous engageons à répondre à vos demandes dans les plus brefs délais et à protéger vos droits en matière de confidentialité.'
+        'privacy.contact.commitment': 'Nous nous engageons à répondre à vos demandes dans les plus brefs délais et à protéger vos droits en matière de confidentialité.',
+        // Terms and Conditions translations
+        'terms.page.title': 'Conditions Générales d\'Utilisation - Chantierapp',
+        'terms.title': 'Conditions Générales d\'Utilisation',
+        'terms.last_updated': 'Dernière mise à jour : 1er janvier 2025',
+        'terms.intro': 'Ces Conditions Générales d\'Utilisation régissent votre utilisation de la plateforme Chantierapp. En accédant à notre service, vous acceptez d\'être lié par ces conditions. Veuillez les lire attentivement avant d\'utiliser notre plateforme de gestion de chantiers.',
+        
+        'terms.purpose.title': '1. Objet de la plateforme',
+        'terms.purpose.content': 'Chantierapp est une plateforme de gestion de chantiers de construction conçue pour optimiser la coordination des projets, le suivi des équipes et la gestion des rapports en temps réel. Notre service permet aux entreprises de construction d\'améliorer leur efficacité opérationnelle et de centraliser la gestion de leurs projets.',
+        
+        'terms.eligibility.title': '2. Éligibilité des utilisateurs',
+        'terms.eligibility.content': 'L\'accès et l\'utilisation de la plateforme Chantierapp sont réservés exclusivement aux utilisateurs enregistrés. Vous devez créer un compte valide et être autorisé par votre organisation pour utiliser nos services. L\'utilisation de la plateforme sans inscription préalable est strictement interdite.',
+        
+        'terms.account.title': '3. Création et responsabilités du compte',
+        'terms.account.creation.title': 'Création de compte :',
+        'terms.account.creation.required': 'Vous devez créer un compte pour utiliser la plateforme',
+        'terms.account.creation.accurate': 'Vous devez fournir des informations exactes et complètes',
+        'terms.account.creation.update': 'Vous devez maintenir vos informations à jour',
+        'terms.account.responsibilities.title': 'Responsabilités :',
+        'terms.account.responsibilities.password': 'Maintenir la confidentialité de votre mot de passe',
+        'terms.account.responsibilities.notify': 'Nous notifier immédiatement en cas de compromission de votre compte',
+        'terms.account.responsibilities.activity': 'Assumer la responsabilité de toute activité effectuée sous votre compte',
+        'terms.account.responsibilities.authorized': 'Vous assurer que seules les personnes autorisées utilisent votre compte',
+        
+        'terms.acceptable_use.title': '4. Utilisation acceptable',
+        'terms.acceptable_use.intro': 'L\'utilisation de la plateforme est soumise aux restrictions suivantes. Il est strictement interdit de :',
+        'terms.acceptable_use.illegal': 'Utiliser la plateforme pour des activités illégales ou non autorisées',
+        'terms.acceptable_use.hacking': 'Tenter de pirater, d\'interférer ou de compromettre la sécurité de la plateforme',
+        'terms.acceptable_use.false_info': 'Partager des informations fausses, trompeuses ou inexactes',
+        'terms.acceptable_use.offensive': 'Publier du contenu offensant, abusif, discriminatoire ou inapproprié',
+        'terms.acceptable_use.impersonation': 'Usurper l\'identité d\'un autre utilisateur ou d\'une entité',
+        'terms.acceptable_use.data_access': 'Accéder ou collecter des données d\'autres utilisateurs sans autorisation',
+        'terms.acceptable_use.spam': 'Envoyer du spam ou des messages marketing non sollicités',
+        'terms.acceptable_use.reverse_engineer': 'Procéder à l\'ingénierie inverse ou tenter de décompiler le logiciel',
+        
+        'terms.intellectual_property.title': '5. Propriété intellectuelle',
+        'terms.intellectual_property.platform.title': 'Propriété de la plateforme :',
+        'terms.intellectual_property.platform.content': 'Tous les éléments de la plateforme Chantierapp, y compris mais sans s\'y limiter, le design, les logos, le logiciel, les textes, les images et les matériaux, sont la propriété exclusive d\'Easy Tech Solutions SRL et sont protégés par les lois sur la propriété intellectuelle.',
+        'terms.intellectual_property.user_content.title': 'Contenu généré par l\'utilisateur :',
+        'terms.intellectual_property.user_content.ownership': 'Le contenu que vous créez reste votre propriété',
+        'terms.intellectual_property.user_content.license': 'Vous accordez à Chantierapp une licence pour afficher et gérer ce contenu dans le cadre de nos services',
+        'terms.intellectual_property.user_content.responsibility': 'Vous êtes responsable de la légalité et de l\'exactitude de votre contenu',
+        'terms.intellectual_property.restrictions.title': 'Restrictions d\'utilisation :',
+        'terms.intellectual_property.restrictions.content': 'Vous ne pouvez pas copier, redistribuer, vendre ou exploiter commercialement le contenu de la plateforme sans autorisation écrite préalable d\'Easy Tech Solutions SRL.',
+        
+        'terms.payments.title': '6. Paiements et remboursements',
+        'terms.payments.current': 'La plateforme Chantierapp est actuellement gratuite pour tous les utilisateurs enregistrés.',
+        'terms.payments.future': 'À l\'avenir, des fonctionnalités payantes pourront être introduites. Dans ce cas, les utilisateurs seront informés à l\'avance et ces Conditions Générales seront mises à jour pour inclure les modalités de paiement, de facturation et de remboursement applicables.',
+        
+        'terms.disclaimers.title': '7. Avertissements et limitation de responsabilité',
+        'terms.disclaimers.as_is.title': 'Service fourni "en l\'état" :',
+        'terms.disclaimers.as_is.content': 'La plateforme Chantierapp est fournie "en l\'état" et "selon disponibilité" sans aucune garantie expresse ou implicite. Nous ne garantissons pas que le service sera ininterrompu, exempt d\'erreurs ou entièrement sécurisé.',
+        'terms.disclaimers.liability.title': 'Limitation de responsabilité :',
+        'terms.disclaimers.liability.errors': 'Nous ne sommes pas responsables des erreurs, pannes ou interruptions de service',
+        'terms.disclaimers.liability.user_mistakes': 'Nous ne sommes pas responsables des erreurs ou négligences des utilisateurs',
+        'terms.disclaimers.liability.indirect': 'Nous ne sommes pas responsables des dommages indirects, consécutifs ou spéciaux',
+        'terms.disclaimers.liability.data_loss': 'Nous ne sommes pas responsables de la perte de données due à des facteurs externes',
+        'terms.disclaimers.user_risk.title': 'Utilisation à vos risques :',
+        'terms.disclaimers.user_risk.content': 'Vous utilisez la plateforme à vos propres risques. Il est de votre responsabilité de sauvegarder vos données importantes et de prendre les précautions nécessaires lors de l\'utilisation de nos services.',
+        
+        'terms.termination.title': '8. Résiliation des comptes',
+        'terms.termination.intro': 'Nous nous réservons le droit de suspendre ou de résilier votre compte dans les cas suivants :',
+        'terms.termination.violation': 'Violation des présentes Conditions Générales d\'Utilisation',
+        'terms.termination.false_info': 'Fourniture d\'informations fausses ou trompeuses',
+        'terms.termination.misuse': 'Utilisation abusive de la plateforme ou menaces à la sécurité',
+        'terms.termination.illegal': 'Activités illégales ou contraires à l\'éthique',
+        'terms.termination.user_request': 'Demande de l\'utilisateur de fermer son compte',
+        'terms.termination.notice': 'En cas de résiliation pour violation, nous nous efforcerons de vous notifier à l\'avance, sauf en cas de menace immédiate à la sécurité ou de violation grave.',
+        
+        'terms.governing_law.title': '9. Droit applicable et juridiction',
+        'terms.governing_law.content': 'Ces Conditions Générales d\'Utilisation sont régies par le droit français. Tout litige découlant de ou en relation avec ces conditions sera soumis à la juridiction exclusive des tribunaux français. En cas de conflit entre les versions linguistiques de ces conditions, la version française prévaudra.',
+        
+        'terms.changes.title': '10. Modifications des conditions',
+        'terms.changes.right': 'Nous nous réservons le droit de modifier ces Conditions Générales d\'Utilisation à tout moment pour refléter les changements dans nos services, les exigences légales ou les meilleures pratiques de l\'industrie.',
+        'terms.changes.notification': 'Les utilisateurs seront informés des modifications importantes par e-mail ou via une notification sur la plateforme. La poursuite de l\'utilisation de la plateforme après la notification des modifications constitue votre acceptation des nouvelles conditions.',
+        'terms.changes.review': 'Nous vous encourageons à consulter régulièrement ces conditions pour rester informé de toute mise à jour.',
+        
+        'terms.force_majeure.title': '11. Force majeure',
+        'terms.force_majeure.content': 'Nous ne serons pas tenus responsables de tout retard ou défaillance dans l\'exécution de nos obligations en vertu de ces conditions si ce retard ou cette défaillance résulte de circonstances indépendantes de notre volonté, y compris mais sans s\'y limiter : catastrophes naturelles, actes de guerre, grèves, pannes d\'équipement ou interruptions d\'Internet.',
+        
+        'terms.severability.title': '12. Divisibilité',
+        'terms.severability.content': 'Si une disposition de ces Conditions Générales d\'Utilisation est jugée invalide ou inapplicable par un tribunal compétent, les autres dispositions resteront en vigueur et de plein effet. La disposition invalide sera remplacée par une disposition valide qui se rapproche le plus de l\'intention originale.',
+        
+        'terms.contact.title': '13. Nous contacter',
+        'terms.contact.intro': 'Si vous avez des questions ou des préoccupations concernant ces Conditions Générales d\'Utilisation, n\'hésitez pas à nous contacter :',
+        'terms.contact.company_label': 'Société :',
+        'terms.contact.company': 'Easy Tech Solutions SRL',
+        'terms.contact.email_label': 'E-mail :',
+        'terms.contact.commitment': 'Nous nous engageons à répondre à vos demandes dans les plus brefs délais et à clarifier toute question concernant l\'utilisation de notre plateforme.',
+        
+        'terms.acceptance.title': '14. Acceptation des conditions',
+        'terms.acceptance.content': 'En créant un compte et en utilisant la plateforme Chantierapp, vous confirmez que vous avez lu, compris et accepté ces Conditions Générales d\'Utilisation dans leur intégralité. Si vous n\'acceptez pas ces conditions, vous ne devez pas utiliser notre service.'
     },
     en: {
         'app.title': 'Chantierapp - Construction Site Management Platform',
@@ -188,7 +279,98 @@ const translations = {
         'privacy.contact.title': '11. Contact Us',
         'privacy.contact.intro': 'If you have any questions or concerns about this privacy policy or the processing of your personal data, please feel free to contact us:',
         'privacy.contact.email_label': 'Email:',
-        'privacy.contact.commitment': 'We are committed to responding to your requests promptly and protecting your privacy rights.'
+        'privacy.contact.commitment': 'We are committed to responding to your requests promptly and protecting your privacy rights.',
+        // Terms and Conditions translations
+        'terms.page.title': 'Terms and Conditions - Chantierapp',
+        'terms.title': 'Terms and Conditions',
+        'terms.last_updated': 'Last updated: January 1, 2025',
+        'terms.intro': 'These Terms and Conditions govern your use of the Chantierapp platform. By accessing our service, you agree to be bound by these terms. Please read them carefully before using our construction management platform.',
+        
+        'terms.purpose.title': '1. Platform Purpose',
+        'terms.purpose.content': 'Chantierapp is a construction site management platform designed to optimize project coordination, team tracking, and real-time report management. Our service enables construction companies to improve their operational efficiency and centralize project management.',
+        
+        'terms.eligibility.title': '2. User Eligibility',
+        'terms.eligibility.content': 'Access and use of the Chantierapp platform are exclusively reserved for registered users. You must create a valid account and be authorized by your organization to use our services. Using the platform without prior registration is strictly prohibited.',
+        
+        'terms.account.title': '3. Account Creation and Responsibilities',
+        'terms.account.creation.title': 'Account Creation:',
+        'terms.account.creation.required': 'You must create an account to use the platform',
+        'terms.account.creation.accurate': 'You must provide accurate and complete information',
+        'terms.account.creation.update': 'You must keep your information up to date',
+        'terms.account.responsibilities.title': 'Responsibilities:',
+        'terms.account.responsibilities.password': 'Maintain the confidentiality of your password',
+        'terms.account.responsibilities.notify': 'Notify us immediately if your account is compromised',
+        'terms.account.responsibilities.activity': 'Take responsibility for all activity under your account',
+        'terms.account.responsibilities.authorized': 'Ensure only authorized persons use your account',
+        
+        'terms.acceptable_use.title': '4. Acceptable Use',
+        'terms.acceptable_use.intro': 'Platform use is subject to the following restrictions. It is strictly prohibited to:',
+        'terms.acceptable_use.illegal': 'Use the platform for illegal or unauthorized activities',
+        'terms.acceptable_use.hacking': 'Attempt to hack, interfere with, or compromise platform security',
+        'terms.acceptable_use.false_info': 'Share false, misleading, or inaccurate information',
+        'terms.acceptable_use.offensive': 'Post offensive, abusive, discriminatory, or inappropriate content',
+        'terms.acceptable_use.impersonation': 'Impersonate another user or entity',
+        'terms.acceptable_use.data_access': 'Access or collect data from other users without permission',
+        'terms.acceptable_use.spam': 'Send spam or unsolicited marketing messages',
+        'terms.acceptable_use.reverse_engineer': 'Reverse engineer or attempt to decompile the software',
+        
+        'terms.intellectual_property.title': '5. Intellectual Property',
+        'terms.intellectual_property.platform.title': 'Platform Ownership:',
+        'terms.intellectual_property.platform.content': 'All elements of the Chantierapp platform, including but not limited to design, logos, software, texts, images, and materials, are the exclusive property of Easy Tech Solutions SRL and are protected by intellectual property laws.',
+        'terms.intellectual_property.user_content.title': 'User-Generated Content:',
+        'terms.intellectual_property.user_content.ownership': 'Content you create remains your property',
+        'terms.intellectual_property.user_content.license': 'You grant Chantierapp a license to display and manage this content as part of our services',
+        'terms.intellectual_property.user_content.responsibility': 'You are responsible for the legality and accuracy of your content',
+        'terms.intellectual_property.restrictions.title': 'Usage Restrictions:',
+        'terms.intellectual_property.restrictions.content': 'You may not copy, redistribute, sell, or commercially exploit platform content without prior written authorization from Easy Tech Solutions SRL.',
+        
+        'terms.payments.title': '6. Payments and Refunds',
+        'terms.payments.current': 'The Chantierapp platform is currently free for all registered users.',
+        'terms.payments.future': 'In the future, paid features may be introduced. In such cases, users will be notified in advance and these Terms and Conditions will be updated to include applicable payment, billing, and refund terms.',
+        
+        'terms.disclaimers.title': '7. Disclaimers and Limitation of Liability',
+        'terms.disclaimers.as_is.title': 'Service provided "as is":',
+        'terms.disclaimers.as_is.content': 'The Chantierapp platform is provided "as is" and "as available" without any express or implied warranties. We do not guarantee that the service will be uninterrupted, error-free, or completely secure.',
+        'terms.disclaimers.liability.title': 'Limitation of Liability:',
+        'terms.disclaimers.liability.errors': 'We are not responsible for errors, outages, or service interruptions',
+        'terms.disclaimers.liability.user_mistakes': 'We are not responsible for user errors or negligence',
+        'terms.disclaimers.liability.indirect': 'We are not responsible for indirect, consequential, or special damages',
+        'terms.disclaimers.liability.data_loss': 'We are not responsible for data loss due to external factors',
+        'terms.disclaimers.user_risk.title': 'Use at your own risk:',
+        'terms.disclaimers.user_risk.content': 'You use the platform at your own risk. It is your responsibility to back up important data and take necessary precautions when using our services.',
+        
+        'terms.termination.title': '8. Account Termination',
+        'terms.termination.intro': 'We reserve the right to suspend or terminate your account in the following cases:',
+        'terms.termination.violation': 'Violation of these Terms and Conditions',
+        'terms.termination.false_info': 'Providing false or misleading information',
+        'terms.termination.misuse': 'Platform misuse or security threats',
+        'terms.termination.illegal': 'Illegal or unethical activities',
+        'terms.termination.user_request': 'User request to close their account',
+        'terms.termination.notice': 'In case of termination for violation, we will strive to notify you in advance, except in cases of immediate security threat or serious violation.',
+        
+        'terms.governing_law.title': '9. Governing Law and Jurisdiction',
+        'terms.governing_law.content': 'These Terms and Conditions are governed by French law. Any dispute arising from or in connection with these terms will be subject to the exclusive jurisdiction of French courts. In case of conflict between language versions of these terms, the French version shall prevail.',
+        
+        'terms.changes.title': '10. Changes to Terms',
+        'terms.changes.right': 'We reserve the right to modify these Terms and Conditions at any time to reflect changes in our services, legal requirements, or industry best practices.',
+        'terms.changes.notification': 'Users will be notified of significant changes by email or via platform notification. Continued use of the platform after notification of changes constitutes your acceptance of the new terms.',
+        'terms.changes.review': 'We encourage you to regularly review these terms to stay informed of any updates.',
+        
+        'terms.force_majeure.title': '11. Force Majeure',
+        'terms.force_majeure.content': 'We shall not be liable for any delay or failure in performance of our obligations under these terms if such delay or failure results from circumstances beyond our control, including but not limited to: natural disasters, acts of war, strikes, equipment failures, or Internet interruptions.',
+        
+        'terms.severability.title': '12. Severability',
+        'terms.severability.content': 'If any provision of these Terms and Conditions is deemed invalid or unenforceable by a competent court, the other provisions shall remain in full force and effect. The invalid provision shall be replaced by a valid provision that most closely approximates the original intent.',
+        
+        'terms.contact.title': '13. Contact Us',
+        'terms.contact.intro': 'If you have any questions or concerns regarding these Terms and Conditions, please feel free to contact us:',
+        'terms.contact.company_label': 'Company:',
+        'terms.contact.company': 'Easy Tech Solutions SRL',
+        'terms.contact.email_label': 'Email:',
+        'terms.contact.commitment': 'We are committed to responding to your inquiries promptly and clarifying any questions regarding the use of our platform.',
+        
+        'terms.acceptance.title': '14. Acceptance of Terms',
+        'terms.acceptance.content': 'By creating an account and using the Chantierapp platform, you confirm that you have read, understood, and accepted these Terms and Conditions in their entirety. If you do not accept these terms, you must not use our service.'
     },
     ro: {
         'app.title': 'Chantierapp - Platformă de gestionare a șantierelor de construcții',
@@ -283,7 +465,98 @@ const translations = {
         'privacy.contact.title': '11. Contactați-ne',
         'privacy.contact.intro': 'Dacă aveți întrebări sau preocupări despre această politică de confidențialitate sau procesarea datelor dvs. personale, nu ezitați să ne contactați:',
         'privacy.contact.email_label': 'E-mail:',
-        'privacy.contact.commitment': 'Ne angajăm să răspundem prompt la solicitările dvs. și să vă protejăm drepturile de confidențialitate.'
+        'privacy.contact.commitment': 'Ne angajăm să răspundem prompt la solicitările dvs. și să vă protejăm drepturile de confidențialitate.',
+        // Terms and Conditions translations
+        'terms.page.title': 'Termeni și Condiții - Chantierapp',
+        'terms.title': 'Termeni și Condiții',
+        'terms.last_updated': 'Ultima actualizare: 1 ianuarie 2025',
+        'terms.intro': 'Acești Termeni și Condiții guvernează utilizarea platformei Chantierapp. Prin accesarea serviciului nostru, sunteți de acord să fiți legat de acești termeni. Vă rugăm să îi citiți cu atenție înainte de a utiliza platforma noastră de management al șantierelor.',
+        
+        'terms.purpose.title': '1. Scopul platformei',
+        'terms.purpose.content': 'Chantierapp este o platformă de management al șantierelor de construcții concepută pentru a optimiza coordonarea proiectelor, urmărirea echipelor și gestionarea rapoartelor în timp real. Serviciul nostru permite companiilor de construcții să își îmbunătățească eficiența operațională și să centralizeze managementul proiectelor.',
+        
+        'terms.eligibility.title': '2. Eligibilitatea utilizatorilor',
+        'terms.eligibility.content': 'Accesul și utilizarea platformei Chantierapp sunt rezervate exclusiv utilizatorilor înregistrați. Trebuie să creați un cont valid și să fiți autorizat de organizația dumneavoastră pentru a utiliza serviciile noastre. Utilizarea platformei fără înregistrare prealabilă este strict interzisă.',
+        
+        'terms.account.title': '3. Crearea contului și responsabilități',
+        'terms.account.creation.title': 'Crearea contului:',
+        'terms.account.creation.required': 'Trebuie să creați un cont pentru a utiliza platforma',
+        'terms.account.creation.accurate': 'Trebuie să furnizați informații exacte și complete',
+        'terms.account.creation.update': 'Trebuie să mențineți informațiile actualizate',
+        'terms.account.responsibilities.title': 'Responsabilități:',
+        'terms.account.responsibilities.password': 'Menținerea confidențialității parolei',
+        'terms.account.responsibilities.notify': 'Notificarea noastră imediată în cazul compromiterii contului',
+        'terms.account.responsibilities.activity': 'Asumarea responsabilității pentru toată activitatea de sub contul dumneavoastră',
+        'terms.account.responsibilities.authorized': 'Asigurarea că doar persoanele autorizate utilizează contul dumneavoastră',
+        
+        'terms.acceptable_use.title': '4. Utilizare acceptabilă',
+        'terms.acceptable_use.intro': 'Utilizarea platformei este supusă următoarelor restricții. Este strict interzis să:',
+        'terms.acceptable_use.illegal': 'Utilizați platforma pentru activități ilegale sau neautorizate',
+        'terms.acceptable_use.hacking': 'Încercați să hackerați, să interferați sau să compromiteți securitatea platformei',
+        'terms.acceptable_use.false_info': 'Partajați informații false, înșelătoare sau inexacte',
+        'terms.acceptable_use.offensive': 'Postați conținut ofensator, abuziv, discriminatoriu sau nepotrivit',
+        'terms.acceptable_use.impersonation': 'Vă dați drept alt utilizator sau entitate',
+        'terms.acceptable_use.data_access': 'Accesați sau colectați date de la alți utilizatori fără permisiune',
+        'terms.acceptable_use.spam': 'Trimiteți spam sau mesaje de marketing nesolicitate',
+        'terms.acceptable_use.reverse_engineer': 'Faceți inginerie inversă sau încercați să decompilați software-ul',
+        
+        'terms.intellectual_property.title': '5. Proprietate intelectuală',
+        'terms.intellectual_property.platform.title': 'Proprietatea platformei:',
+        'terms.intellectual_property.platform.content': 'Toate elementele platformei Chantierapp, inclusiv dar fără a se limita la design, logo-uri, software, texte, imagini și materiale, sunt proprietatea exclusivă a Easy Tech Solutions SRL și sunt protejate de legile proprietății intelectuale.',
+        'terms.intellectual_property.user_content.title': 'Conținut generat de utilizator:',
+        'terms.intellectual_property.user_content.ownership': 'Conținutul pe care îl creați rămâne proprietatea dumneavoastră',
+        'terms.intellectual_property.user_content.license': 'Acordați Chantierapp o licență pentru a afișa și gestiona acest conținut ca parte a serviciilor noastre',
+        'terms.intellectual_property.user_content.responsibility': 'Sunteți responsabil pentru legalitatea și exactitatea conținutului dumneavoastră',
+        'terms.intellectual_property.restrictions.title': 'Restricții de utilizare:',
+        'terms.intellectual_property.restrictions.content': 'Nu puteți copia, redistribui, vinde sau exploata comercial conținutul platformei fără autorizarea scrisă prealabilă de la Easy Tech Solutions SRL.',
+        
+        'terms.payments.title': '6. Plăți și rambursări',
+        'terms.payments.current': 'Platforma Chantierapp este în prezent gratuită pentru toți utilizatorii înregistrați.',
+        'terms.payments.future': 'În viitor, pot fi introduse funcționalități plătite. În acest caz, utilizatorii vor fi notificați în avans și acești Termeni și Condiții vor fi actualizați pentru a include termenii aplicabili de plată, facturare și rambursare.',
+        
+        'terms.disclaimers.title': '7. Avertismente și limitarea răspunderii',
+        'terms.disclaimers.as_is.title': 'Serviciu furnizat "ca atare":',
+        'terms.disclaimers.as_is.content': 'Platforma Chantierapp este furnizată "ca atare" și "după disponibilitate" fără nicio garanție expresă sau implicită. Nu garantăm că serviciul va fi neîntrerupt, fără erori sau complet securizat.',
+        'terms.disclaimers.liability.title': 'Limitarea răspunderii:',
+        'terms.disclaimers.liability.errors': 'Nu suntem responsabili pentru erori, întreruperi sau întreruperi de serviciu',
+        'terms.disclaimers.liability.user_mistakes': 'Nu suntem responsabili pentru erorile sau neglijența utilizatorilor',
+        'terms.disclaimers.liability.indirect': 'Nu suntem responsabili pentru daune indirecte, consecutive sau speciale',
+        'terms.disclaimers.liability.data_loss': 'Nu suntem responsabili pentru pierderea datelor din cauza factorilor externi',
+        'terms.disclaimers.user_risk.title': 'Utilizare pe propriul risc:',
+        'terms.disclaimers.user_risk.content': 'Utilizați platforma pe propriul risc. Este responsabilitatea dumneavoastră să faceți backup la datele importante și să luați precauțiile necesare când utilizați serviciile noastre.',
+        
+        'terms.termination.title': '8. Închiderea conturilor',
+        'terms.termination.intro': 'Ne rezervăm dreptul de a suspenda sau închide contul dumneavoastră în următoarele cazuri:',
+        'terms.termination.violation': 'Încălcarea acestor Termeni și Condiții',
+        'terms.termination.false_info': 'Furnizarea de informații false sau înșelătoare',
+        'terms.termination.misuse': 'Utilizarea abuzivă a platformei sau amenințări la securitate',
+        'terms.termination.illegal': 'Activități ilegale sau contrare eticii',
+        'terms.termination.user_request': 'Cererea utilizatorului de a închide contul',
+        'terms.termination.notice': 'În cazul închiderii pentru încălcare, ne vom strădui să vă notificăm în avans, cu excepția cazurilor de amenințare imediată la securitate sau încălcare gravă.',
+        
+        'terms.governing_law.title': '9. Legea aplicabilă și jurisdicția',
+        'terms.governing_law.content': 'Acești Termeni și Condiții sunt guvernați de legea franceză. Orice dispută rezultând din sau în legătură cu acești termeni va fi supusă jurisdicției exclusive a instanțelor franceze. În caz de conflict între versiunile lingvistice ale acestor termeni, versiunea franceză va prevala.',
+        
+        'terms.changes.title': '10. Modificări ale termenilor',
+        'terms.changes.right': 'Ne rezervăm dreptul de a modifica acești Termeni și Condiții în orice moment pentru a reflecta schimbările în serviciile noastre, cerințele legale sau cele mai bune practici din industrie.',
+        'terms.changes.notification': 'Utilizatorii vor fi notificați despre modificările semnificative prin e-mail sau prin notificare pe platformă. Continuarea utilizării platformei după notificarea modificărilor constituie acceptarea noilor termeni.',
+        'terms.changes.review': 'Vă încurajăm să revizuiți regulat acești termeni pentru a rămâne informat despre orice actualizări.',
+        
+        'terms.force_majeure.title': '11. Forță majoră',
+        'terms.force_majeure.content': 'Nu vom fi răspunzători pentru nicio întârziere sau eșec în îndeplinirea obligațiilor noastre conform acestor termeni dacă această întârziere sau eșec rezultă din circumstanțe în afara controlului nostru, inclusiv dar fără a se limita la: dezastre naturale, acte de război, greve, defecțiuni de echipament sau întreruperi de Internet.',
+        
+        'terms.severability.title': '12. Separabilitate',
+        'terms.severability.content': 'Dacă orice prevedere a acestor Termeni și Condiții este considerată invalidă sau inaplicabilă de către o instanță competentă, celelalte prevederi vor rămâne în vigoare și în efect deplin. Prevederea invalidă va fi înlocuită cu o prevedere validă care se apropie cel mai mult de intenția originală.',
+        
+        'terms.contact.title': '13. Contactați-ne',
+        'terms.contact.intro': 'Dacă aveți întrebări sau preocupări cu privire la acești Termeni și Condiții, nu ezitați să ne contactați:',
+        'terms.contact.company_label': 'Companie:',
+        'terms.contact.company': 'Easy Tech Solutions SRL',
+        'terms.contact.email_label': 'E-mail:',
+        'terms.contact.commitment': 'Ne angajăm să răspundem la întrebările dumneavoastră prompt și să clarificăm orice întrebare privind utilizarea platformei noastre.',
+        
+        'terms.acceptance.title': '14. Acceptarea termenilor',
+        'terms.acceptance.content': 'Prin crearea unui cont și utilizarea platformei Chantierapp, confirmați că ați citit, înțeles și acceptat acești Termeni și Condiții în întregime. Dacă nu acceptați acești termeni, nu trebuie să utilizați serviciul nostru.'
     },
     it: {
         'app.title': 'Chantierapp - Piattaforma di gestione dei cantieri edili',
@@ -378,7 +651,98 @@ const translations = {
         'privacy.contact.title': '11. Contattateci',
         'privacy.contact.intro': 'Se avete domande o preoccupazioni riguardo a questa informativa sulla privacy o al trattamento dei vostri dati personali, non esitate a contattarci:',
         'privacy.contact.email_label': 'E-mail:',
-        'privacy.contact.commitment': 'Ci impegniamo a rispondere prontamente alle vostre richieste e a proteggere i vostri diritti alla privacy.'
+        'privacy.contact.commitment': 'Ci impegniamo a rispondere prontamente alle vostre richieste e a proteggere i vostri diritti alla privacy.',
+        // Terms and Conditions translations
+        'terms.page.title': 'Termini e Condizioni - Chantierapp',
+        'terms.title': 'Termini e Condizioni',
+        'terms.last_updated': 'Ultimo aggiornamento: 1 gennaio 2025',
+        'terms.intro': 'Questi Termini e Condizioni regolano l\'utilizzo della piattaforma Chantierapp. Accedendo al nostro servizio, accettate di essere vincolati da questi termini. Vi preghiamo di leggerli attentamente prima di utilizzare la nostra piattaforma di gestione cantieri.',
+        
+        'terms.purpose.title': '1. Scopo della piattaforma',
+        'terms.purpose.content': 'Chantierapp è una piattaforma di gestione cantieri edili progettata per ottimizzare il coordinamento dei progetti, il monitoraggio delle squadre e la gestione dei rapporti in tempo reale. Il nostro servizio consente alle aziende edili di migliorare la loro efficienza operativa e centralizzare la gestione dei progetti.',
+        
+        'terms.eligibility.title': '2. Idoneità degli utenti',
+        'terms.eligibility.content': 'L\'accesso e l\'utilizzo della piattaforma Chantierapp sono riservati esclusivamente agli utenti registrati. Dovete creare un account valido ed essere autorizzati dalla vostra organizzazione per utilizzare i nostri servizi. L\'utilizzo della piattaforma senza registrazione preventiva è severamente vietato.',
+        
+        'terms.account.title': '3. Creazione account e responsabilità',
+        'terms.account.creation.title': 'Creazione account:',
+        'terms.account.creation.required': 'Dovete creare un account per utilizzare la piattaforma',
+        'terms.account.creation.accurate': 'Dovete fornire informazioni accurate e complete',
+        'terms.account.creation.update': 'Dovete mantenere le vostre informazioni aggiornate',
+        'terms.account.responsibilities.title': 'Responsabilità:',
+        'terms.account.responsibilities.password': 'Mantenere la riservatezza della vostra password',
+        'terms.account.responsibilities.notify': 'Notificarci immediatamente se il vostro account è compromesso',
+        'terms.account.responsibilities.activity': 'Assumervi la responsabilità di tutta l\'attività sotto il vostro account',
+        'terms.account.responsibilities.authorized': 'Assicurarvi che solo le persone autorizzate utilizzino il vostro account',
+        
+        'terms.acceptable_use.title': '4. Uso accettabile',
+        'terms.acceptable_use.intro': 'L\'utilizzo della piattaforma è soggetto alle seguenti restrizioni. È severamente vietato:',
+        'terms.acceptable_use.illegal': 'Utilizzare la piattaforma per attività illegali o non autorizzate',
+        'terms.acceptable_use.hacking': 'Tentare di hackerare, interferire o compromettere la sicurezza della piattaforma',
+        'terms.acceptable_use.false_info': 'Condividere informazioni false, fuorvianti o inesatte',
+        'terms.acceptable_use.offensive': 'Pubblicare contenuti offensivi, abusivi, discriminatori o inappropriati',
+        'terms.acceptable_use.impersonation': 'Impersonare un altro utente o entità',
+        'terms.acceptable_use.data_access': 'Accedere o raccogliere dati da altri utenti senza permesso',
+        'terms.acceptable_use.spam': 'Inviare spam o messaggi di marketing non richiesti',
+        'terms.acceptable_use.reverse_engineer': 'Fare reverse engineering o tentare di decompilare il software',
+        
+        'terms.intellectual_property.title': '5. Proprietà intellettuale',
+        'terms.intellectual_property.platform.title': 'Proprietà della piattaforma:',
+        'terms.intellectual_property.platform.content': 'Tutti gli elementi della piattaforma Chantierapp, inclusi ma non limitati a design, loghi, software, testi, immagini e materiali, sono di proprietà esclusiva di Easy Tech Solutions SRL e sono protetti dalle leggi sulla proprietà intellettuale.',
+        'terms.intellectual_property.user_content.title': 'Contenuto generato dall\'utente:',
+        'terms.intellectual_property.user_content.ownership': 'Il contenuto che create rimane di vostra proprietà',
+        'terms.intellectual_property.user_content.license': 'Concedete a Chantierapp una licenza per visualizzare e gestire questo contenuto come parte dei nostri servizi',
+        'terms.intellectual_property.user_content.responsibility': 'Siete responsabili della legalità e accuratezza del vostro contenuto',
+        'terms.intellectual_property.restrictions.title': 'Restrizioni d\'uso:',
+        'terms.intellectual_property.restrictions.content': 'Non potete copiare, ridistribuire, vendere o sfruttare commercialmente il contenuto della piattaforma senza autorizzazione scritta preventiva da Easy Tech Solutions SRL.',
+        
+        'terms.payments.title': '6. Pagamenti e rimborsi',
+        'terms.payments.current': 'La piattaforma Chantierapp è attualmente gratuita per tutti gli utenti registrati.',
+        'terms.payments.future': 'In futuro, potrebbero essere introdotte funzionalità a pagamento. In tal caso, gli utenti saranno notificati in anticipo e questi Termini e Condizioni saranno aggiornati per includere i termini applicabili di pagamento, fatturazione e rimborso.',
+        
+        'terms.disclaimers.title': '7. Esclusioni di responsabilità e limitazione di responsabilità',
+        'terms.disclaimers.as_is.title': 'Servizio fornito "così com\'è":',
+        'terms.disclaimers.as_is.content': 'La piattaforma Chantierapp è fornita "così com\'è" e "secondo disponibilità" senza alcuna garanzia espressa o implicita. Non garantiamo che il servizio sarà ininterrotto, privo di errori o completamente sicuro.',
+        'terms.disclaimers.liability.title': 'Limitazione di responsabilità:',
+        'terms.disclaimers.liability.errors': 'Non siamo responsabili per errori, interruzioni o interruzioni del servizio',
+        'terms.disclaimers.liability.user_mistakes': 'Non siamo responsabili per errori o negligenza degli utenti',
+        'terms.disclaimers.liability.indirect': 'Non siamo responsabili per danni indiretti, consequenziali o speciali',
+        'terms.disclaimers.liability.data_loss': 'Non siamo responsabili per la perdita di dati dovuta a fattori esterni',
+        'terms.disclaimers.user_risk.title': 'Uso a vostro rischio:',
+        'terms.disclaimers.user_risk.content': 'Utilizzate la piattaforma a vostro rischio. È vostra responsabilità fare il backup dei dati importanti e prendere le precauzioni necessarie quando utilizzate i nostri servizi.',
+        
+        'terms.termination.title': '8. Chiusura degli account',
+        'terms.termination.intro': 'Ci riserviamo il diritto di sospendere o chiudere il vostro account nei seguenti casi:',
+        'terms.termination.violation': 'Violazione di questi Termini e Condizioni',
+        'terms.termination.false_info': 'Fornitura di informazioni false o fuorvianti',
+        'terms.termination.misuse': 'Uso improprio della piattaforma o minacce alla sicurezza',
+        'terms.termination.illegal': 'Attività illegali o contrarie all\'etica',
+        'terms.termination.user_request': 'Richiesta dell\'utente di chiudere il proprio account',
+        'terms.termination.notice': 'In caso di chiusura per violazione, ci sforzeremo di notificarvi in anticipo, tranne in casi di minaccia immediata alla sicurezza o violazione grave.',
+        
+        'terms.governing_law.title': '9. Legge applicabile e giurisdizione',
+        'terms.governing_law.content': 'Questi Termini e Condizioni sono regolati dalla legge francese. Qualsiasi controversia derivante da o in connessione con questi termini sarà soggetta alla giurisdizione esclusiva dei tribunali francesi. In caso di conflitto tra le versioni linguistiche di questi termini, la versione francese prevarrà.',
+        
+        'terms.changes.title': '10. Modifiche ai termini',
+        'terms.changes.right': 'Ci riserviamo il diritto di modificare questi Termini e Condizioni in qualsiasi momento per riflettere i cambiamenti nei nostri servizi, i requisiti legali o le migliori pratiche del settore.',
+        'terms.changes.notification': 'Gli utenti saranno notificati delle modifiche significative via e-mail o tramite notifica sulla piattaforma. L\'uso continuato della piattaforma dopo la notifica delle modifiche costituisce la vostra accettazione dei nuovi termini.',
+        'terms.changes.review': 'Vi incoraggiamo a rivedere regolarmente questi termini per rimanere informati su eventuali aggiornamenti.',
+        
+        'terms.force_majeure.title': '11. Forza maggiore',
+        'terms.force_majeure.content': 'Non saremo responsabili per alcun ritardo o mancato adempimento dei nostri obblighi secondo questi termini se tale ritardo o mancato adempimento risulta da circostanze al di fuori del nostro controllo, inclusi ma non limitati a: disastri naturali, atti di guerra, scioperi, guasti alle attrezzature o interruzioni di Internet.',
+        
+        'terms.severability.title': '12. Separabilità',
+        'terms.severability.content': 'Se qualsiasi disposizione di questi Termini e Condizioni è ritenuta invalida o inapplicabile da un tribunale competente, le altre disposizioni rimarranno in pieno vigore ed effetto. La disposizione invalida sarà sostituita da una disposizione valida che si avvicina di più all\'intenzione originale.',
+        
+        'terms.contact.title': '13. Contattaci',
+        'terms.contact.intro': 'Se avete domande o preoccupazioni riguardo a questi Termini e Condizioni, non esitate a contattarci:',
+        'terms.contact.company_label': 'Azienda:',
+        'terms.contact.company': 'Easy Tech Solutions SRL',
+        'terms.contact.email_label': 'E-mail:',
+        'terms.contact.commitment': 'Ci impegniamo a rispondere alle vostre richieste prontamente e a chiarire qualsiasi domanda riguardo l\'uso della nostra piattaforma.',
+        
+        'terms.acceptance.title': '14. Accettazione dei termini',
+        'terms.acceptance.content': 'Creando un account e utilizzando la piattaforma Chantierapp, confermate di aver letto, compreso e accettato questi Termini e Condizioni nella loro interezza. Se non accettate questi termini, non dovete utilizzare il nostro servizio.'
     },
     es: {
         'app.title': 'Chantierapp - Plataforma de gestión de obras de construcción',
@@ -473,7 +837,98 @@ const translations = {
         'privacy.contact.title': '11. Contáctenos',
         'privacy.contact.intro': 'Si tiene preguntas o inquietudes sobre esta política de privacidad o el procesamiento de sus datos personales, no dude en contactarnos:',
         'privacy.contact.email_label': 'Correo electrónico:',
-        'privacy.contact.commitment': 'Nos comprometemos a responder a sus solicitudes de manera oportuna y a proteger sus derechos de privacidad.'
+        'privacy.contact.commitment': 'Nos comprometemos a responder a sus solicitudes de manera oportuna y a proteger sus derechos de privacidad.',
+        // Terms and Conditions translations
+        'terms.page.title': 'Términos y Condiciones - Chantierapp',
+        'terms.title': 'Términos y Condiciones',
+        'terms.last_updated': 'Última actualización: 1 de enero de 2025',
+        'terms.intro': 'Estos Términos y Condiciones rigen el uso de la plataforma Chantierapp. Al acceder a nuestro servicio, acepta estar sujeto a estos términos. Por favor, léalos cuidadosamente antes de usar nuestra plataforma de gestión de obras.',
+        
+        'terms.purpose.title': '1. Propósito de la plataforma',
+        'terms.purpose.content': 'Chantierapp es una plataforma de gestión de obras de construcción diseñada para optimizar la coordinación de proyectos, el seguimiento de equipos y la gestión de informes en tiempo real. Nuestro servicio permite a las empresas de construcción mejorar su eficiencia operativa y centralizar la gestión de proyectos.',
+        
+        'terms.eligibility.title': '2. Elegibilidad de usuarios',
+        'terms.eligibility.content': 'El acceso y uso de la plataforma Chantierapp están reservados exclusivamente para usuarios registrados. Debe crear una cuenta válida y estar autorizado por su organización para usar nuestros servicios. El uso de la plataforma sin registro previo está estrictamente prohibido.',
+        
+        'terms.account.title': '3. Creación de cuenta y responsabilidades',
+        'terms.account.creation.title': 'Creación de cuenta:',
+        'terms.account.creation.required': 'Debe crear una cuenta para usar la plataforma',
+        'terms.account.creation.accurate': 'Debe proporcionar información precisa y completa',
+        'terms.account.creation.update': 'Debe mantener su información actualizada',
+        'terms.account.responsibilities.title': 'Responsabilidades:',
+        'terms.account.responsibilities.password': 'Mantener la confidencialidad de su contraseña',
+        'terms.account.responsibilities.notify': 'Notificarnos inmediatamente si su cuenta está comprometida',
+        'terms.account.responsibilities.activity': 'Asumir la responsabilidad de toda actividad bajo su cuenta',
+        'terms.account.responsibilities.authorized': 'Asegurar que solo personas autorizadas usen su cuenta',
+        
+        'terms.acceptable_use.title': '4. Uso aceptable',
+        'terms.acceptable_use.intro': 'El uso de la plataforma está sujeto a las siguientes restricciones. Está estrictamente prohibido:',
+        'terms.acceptable_use.illegal': 'Usar la plataforma para actividades ilegales o no autorizadas',
+        'terms.acceptable_use.hacking': 'Intentar hackear, interferir o comprometer la seguridad de la plataforma',
+        'terms.acceptable_use.false_info': 'Compartir información falsa, engañosa o inexacta',
+        'terms.acceptable_use.offensive': 'Publicar contenido ofensivo, abusivo, discriminatorio o inapropiado',
+        'terms.acceptable_use.impersonation': 'Hacerse pasar por otro usuario o entidad',
+        'terms.acceptable_use.data_access': 'Acceder o recopilar datos de otros usuarios sin permiso',
+        'terms.acceptable_use.spam': 'Enviar spam o mensajes de marketing no solicitados',
+        'terms.acceptable_use.reverse_engineer': 'Hacer ingeniería inversa o intentar descompilar el software',
+        
+        'terms.intellectual_property.title': '5. Propiedad intelectual',
+        'terms.intellectual_property.platform.title': 'Propiedad de la plataforma:',
+        'terms.intellectual_property.platform.content': 'Todos los elementos de la plataforma Chantierapp, incluyendo pero no limitado a diseño, logos, software, textos, imágenes y materiales, son propiedad exclusiva de Easy Tech Solutions SRL y están protegidos por las leyes de propiedad intelectual.',
+        'terms.intellectual_property.user_content.title': 'Contenido generado por el usuario:',
+        'terms.intellectual_property.user_content.ownership': 'El contenido que crea sigue siendo de su propiedad',
+        'terms.intellectual_property.user_content.license': 'Otorga a Chantierapp una licencia para mostrar y gestionar este contenido como parte de nuestros servicios',
+        'terms.intellectual_property.user_content.responsibility': 'Es responsable de la legalidad y precisión de su contenido',
+        'terms.intellectual_property.restrictions.title': 'Restricciones de uso:',
+        'terms.intellectual_property.restrictions.content': 'No puede copiar, redistribuir, vender o explotar comercialmente el contenido de la plataforma sin autorización escrita previa de Easy Tech Solutions SRL.',
+        
+        'terms.payments.title': '6. Pagos y reembolsos',
+        'terms.payments.current': 'La plataforma Chantierapp es actualmente gratuita para todos los usuarios registrados.',
+        'terms.payments.future': 'En el futuro, pueden introducirse características de pago. En tal caso, los usuarios serán notificados con anticipación y estos Términos y Condiciones serán actualizados para incluir los términos aplicables de pago, facturación y reembolso.',
+        
+        'terms.disclaimers.title': '7. Exenciones de responsabilidad y limitación de responsabilidad',
+        'terms.disclaimers.as_is.title': 'Servicio proporcionado "tal como está":',
+        'terms.disclaimers.as_is.content': 'La plataforma Chantierapp se proporciona "tal como está" y "según disponibilidad" sin ninguna garantía expresa o implícita. No garantizamos que el servicio será ininterrumpido, libre de errores o completamente seguro.',
+        'terms.disclaimers.liability.title': 'Limitación de responsabilidad:',
+        'terms.disclaimers.liability.errors': 'No somos responsables de errores, interrupciones o interrupciones del servicio',
+        'terms.disclaimers.liability.user_mistakes': 'No somos responsables de errores o negligencia de los usuarios',
+        'terms.disclaimers.liability.indirect': 'No somos responsables de daños indirectos, consecuentes o especiales',
+        'terms.disclaimers.liability.data_loss': 'No somos responsables de la pérdida de datos debido a factores externos',
+        'terms.disclaimers.user_risk.title': 'Uso bajo su propio riesgo:',
+        'terms.disclaimers.user_risk.content': 'Usa la plataforma bajo su propio riesgo. Es su responsabilidad hacer copias de seguridad de datos importantes y tomar las precauciones necesarias al usar nuestros servicios.',
+        
+        'terms.termination.title': '8. Terminación de cuentas',
+        'terms.termination.intro': 'Nos reservamos el derecho de suspender o terminar su cuenta en los siguientes casos:',
+        'terms.termination.violation': 'Violación de estos Términos y Condiciones',
+        'terms.termination.false_info': 'Proporcionar información falsa o engañosa',
+        'terms.termination.misuse': 'Uso indebido de la plataforma o amenazas a la seguridad',
+        'terms.termination.illegal': 'Actividades ilegales o contrarias a la ética',
+        'terms.termination.user_request': 'Solicitud del usuario para cerrar su cuenta',
+        'terms.termination.notice': 'En caso de terminación por violación, nos esforzaremos por notificarle con anticipación, excepto en casos de amenaza inmediata a la seguridad o violación grave.',
+        
+        'terms.governing_law.title': '9. Ley aplicable y jurisdicción',
+        'terms.governing_law.content': 'Estos Términos y Condiciones se rigen por la ley francesa. Cualquier disputa que surja de o en conexión con estos términos estará sujeta a la jurisdicción exclusiva de los tribunales franceses. En caso de conflicto entre las versiones lingüísticas de estos términos, la versión francesa prevalecerá.',
+        
+        'terms.changes.title': '10. Cambios en los términos',
+        'terms.changes.right': 'Nos reservamos el derecho de modificar estos Términos y Condiciones en cualquier momento para reflejar cambios en nuestros servicios, requisitos legales o mejores prácticas de la industria.',
+        'terms.changes.notification': 'Los usuarios serán notificados de cambios significativos por correo electrónico o a través de notificación en la plataforma. El uso continuado de la plataforma después de la notificación de cambios constituye su aceptación de los nuevos términos.',
+        'terms.changes.review': 'Le animamos a revisar regularmente estos términos para mantenerse informado de cualquier actualización.',
+        
+        'terms.force_majeure.title': '11. Fuerza mayor',
+        'terms.force_majeure.content': 'No seremos responsables de ningún retraso o falla en el cumplimiento de nuestras obligaciones bajo estos términos si tal retraso o falla resulta de circunstancias fuera de nuestro control, incluyendo pero no limitado a: desastres naturales, actos de guerra, huelgas, fallas de equipo o interrupciones de Internet.',
+        
+        'terms.severability.title': '12. Separabilidad',
+        'terms.severability.content': 'Si cualquier disposición de estos Términos y Condiciones se considera inválida o inaplicable por un tribunal competente, las otras disposiciones permanecerán en pleno vigor y efecto. La disposición inválida será reemplazada por una disposición válida que se acerque más a la intención original.',
+        
+        'terms.contact.title': '13. Contáctanos',
+        'terms.contact.intro': 'Si tiene preguntas o inquietudes sobre estos Términos y Condiciones, no dude en contactarnos:',
+        'terms.contact.company_label': 'Empresa:',
+        'terms.contact.company': 'Easy Tech Solutions SRL',
+        'terms.contact.email_label': 'Correo electrónico:',
+        'terms.contact.commitment': 'Nos comprometemos a responder a sus consultas prontamente y aclarar cualquier pregunta sobre el uso de nuestra plataforma.',
+        
+        'terms.acceptance.title': '14. Aceptación de términos',
+        'terms.acceptance.content': 'Al crear una cuenta y usar la plataforma Chantierapp, confirma que ha leído, entendido y aceptado estos Términos y Condiciones en su totalidad. Si no acepta estos términos, no debe usar nuestro servicio.'
     },
     ru: {
         'app.title': 'Chantierapp — платформа для управления строительной площадкой',
@@ -568,8 +1023,121 @@ const translations = {
         'privacy.contact.title': '11. Свяжитесь с нами',
         'privacy.contact.intro': 'Если у вас есть вопросы или опасения относительно этой политики конфиденциальности или обработки ваших персональных данных, не стесняйтесь обращаться к нам:',
         'privacy.contact.email_label': 'Электронная почта:',
-        'privacy.contact.commitment': 'Мы обязуемся своевременно отвечать на ваши запросы и защищать ваши права на конфиденциальность.'
+        'privacy.contact.commitment': 'Мы обязуемся своевременно отвечать на ваши запросы и защищать ваши права на конфиденциальность.',
+        // Terms and Conditions translations
+        'terms.page.title': 'Условия использования - Chantierapp',
+        'terms.title': 'Условия использования',
+        'terms.last_updated': 'Последнее обновление: 1 января 2025 г.',
+        'terms.intro': 'Эти Условия использования регулируют ваше использование платформы Chantierapp. Получая доступ к нашему сервису, вы соглашаетесь соблюдать эти условия. Пожалуйста, внимательно прочитайте их перед использованием нашей платформы управления строительными объектами.',
+        
+        'terms.purpose.title': '1. Назначение платформы',
+        'terms.purpose.content': 'Chantierapp - это платформа управления строительными объектами, предназначенная для оптимизации координации проектов, отслеживания команд и управления отчетами в реальном времени. Наш сервис позволяет строительным компаниям повысить операционную эффективность и централизовать управление проектами.',
+        
+        'terms.eligibility.title': '2. Право пользования',
+        'terms.eligibility.content': 'Доступ и использование платформы Chantierapp зарезервированы исключительно для зарегистрированных пользователей. Вы должны создать действительную учетную запись и быть авторизованы вашей организацией для использования наших услуг. Использование платформы без предварительной регистрации строго запрещено.',
+        
+        'terms.account.title': '3. Создание учетной записи и обязанности',
+        'terms.account.creation.title': 'Создание учетной записи:',
+        'terms.account.creation.required': 'Вы должны создать учетную запись для использования платформы',
+        'terms.account.creation.accurate': 'Вы должны предоставить точную и полную информацию',
+        'terms.account.creation.update': 'Вы должны поддерживать свою информацию в актуальном состоянии',
+        'terms.account.responsibilities.title': 'Обязанности:',
+        'terms.account.responsibilities.password': 'Поддерживать конфиденциальность вашего пароля',
+        'terms.account.responsibilities.notify': 'Немедленно уведомлять нас, если ваша учетная запись скомпрометирована',
+        'terms.account.responsibilities.activity': 'Нести ответственность за всю активность под вашей учетной записью',
+        'terms.account.responsibilities.authorized': 'Обеспечить, чтобы только авторизованные лица использовали вашу учетную запись',
+        
+        'terms.acceptable_use.title': '4. Допустимое использование',
+        'terms.acceptable_use.intro': 'Использование платформы подчиняется следующим ограничениям. Строго запрещено:',
+        'terms.acceptable_use.illegal': 'Использовать платформу для незаконных или неавторизованных действий',
+        'terms.acceptable_use.hacking': 'Пытаться взломать, вмешиваться или компрометировать безопасность платформы',
+        'terms.acceptable_use.false_info': 'Делиться ложной, вводящей в заблуждение или неточной информацией',
+        'terms.acceptable_use.offensive': 'Публиковать оскорбительный, абузивный, дискриминационный или неподходящий контент',
+        'terms.acceptable_use.impersonation': 'Выдавать себя за другого пользователя или организацию',
+        'terms.acceptable_use.data_access': 'Получать доступ или собирать данные других пользователей без разрешения',
+        'terms.acceptable_use.spam': 'Отправлять спам или нежелательные маркетинговые сообщения',
+        'terms.acceptable_use.reverse_engineer': 'Проводить обратную разработку или пытаться декомпилировать программное обеспечение',
+        
+        'terms.intellectual_property.title': '5. Интеллектуальная собственность',
+        'terms.intellectual_property.platform.title': 'Собственность платформы:',
+        'terms.intellectual_property.platform.content': 'Все элементы платформы Chantierapp, включая но не ограничиваясь дизайном, логотипами, программным обеспечением, текстами, изображениями и материалами, являются исключительной собственностью Easy Tech Solutions SRL и защищены законами об интеллектуальной собственности.',
+        'terms.intellectual_property.user_content.title': 'Пользовательский контент:',
+        'terms.intellectual_property.user_content.ownership': 'Контент, который вы создаете, остается вашей собственностью',
+        'terms.intellectual_property.user_content.license': 'Вы предоставляете Chantierapp лицензию на отображение и управление этим контентом как частью наших услуг',
+        'terms.intellectual_property.user_content.responsibility': 'Вы несете ответственность за законность и точность вашего контента',
+        'terms.intellectual_property.restrictions.title': 'Ограничения использования:',
+        'terms.intellectual_property.restrictions.content': 'Вы не можете копировать, перераспределять, продавать или коммерчески эксплуатировать контент платформы без предварительного письменного разрешения от Easy Tech Solutions SRL.',
+        
+        'terms.payments.title': '6. Платежи и возвраты',
+        'terms.payments.current': 'Платформа Chantierapp в настоящее время бесплатна для всех зарегистрированных пользователей.',
+        'terms.payments.future': 'В будущем могут быть введены платные функции. В таком случае пользователи будут уведомлены заранее, и эти Условия использования будут обновлены для включения применимых условий оплаты, выставления счетов и возврата средств.',
+        
+        'terms.disclaimers.title': '7. Отказ от ответственности и ограничение ответственности',
+        'terms.disclaimers.as_is.title': 'Сервис предоставляется "как есть":',
+        'terms.disclaimers.as_is.content': 'Платформа Chantierapp предоставляется "как есть" и "по мере доступности" без каких-либо явных или подразумеваемых гарантий. Мы не гарантируем, что сервис будет бесперебойным, безошибочным или полностью безопасным.',
+        'terms.disclaimers.liability.title': 'Ограничение ответственности:',
+        'terms.disclaimers.liability.errors': 'Мы не несем ответственности за ошибки, сбои или прерывания сервиса',
+        'terms.disclaimers.liability.user_mistakes': 'Мы не несем ответственности за ошибки или небрежность пользователей',
+        'terms.disclaimers.liability.indirect': 'Мы не несем ответственности за косвенные, последующие или специальные ущербы',
+        'terms.disclaimers.liability.data_loss': 'Мы не несем ответственности за потерю данных из-за внешних факторов',
+        'terms.disclaimers.user_risk.title': 'Использование на ваш риск:',
+        'terms.disclaimers.user_risk.content': 'Вы используете платформу на свой риск. Ваша ответственность - создавать резервные копии важных данных и принимать необходимые меры предосторожности при использовании наших услуг.',
+        
+        'terms.termination.title': '8. Закрытие учетных записей',
+        'terms.termination.intro': 'Мы оставляем за собой право приостановить или закрыть вашу учетную запись в следующих случаях:',
+        'terms.termination.violation': 'Нарушение этих Условий использования',
+        'terms.termination.false_info': 'Предоставление ложной или вводящей в заблуждение информации',
+        'terms.termination.misuse': 'Неправильное использование платформы или угрозы безопасности',
+        'terms.termination.illegal': 'Незаконные или неэтичные действия',
+        'terms.termination.user_request': 'Запрос пользователя на закрытие учетной записи',
+        'terms.termination.notice': 'В случае закрытия за нарушение, мы постараемся уведомить вас заранее, за исключением случаев немедленной угрозы безопасности или серьезного нарушения.',
+        
+        'terms.governing_law.title': '9. Применимое право и юрисдикция',
+        'terms.governing_law.content': 'Эти Условия использования регулируются французским правом. Любой спор, возникающий из или в связи с этими условиями, будет подчиняться исключительной юрисдикции французских судов. В случае конфликта между языковыми версиями этих условий, французская версия будет иметь приоритет.',
+        
+        'terms.changes.title': '10. Изменения условий',
+        'terms.changes.right': 'Мы оставляем за собой право изменять эти Условия использования в любое время для отражения изменений в наших услугах, правовых требованиях или лучших практиках отрасли.',
+        'terms.changes.notification': 'Пользователи будут уведомлены о значительных изменениях по электронной почте или через уведомление на платформе. Продолжение использования платформы после уведомления об изменениях означает ваше принятие новых условий.',
+        'terms.changes.review': 'Мы рекомендуем регулярно просматривать эти условия, чтобы быть в курсе любых обновлений.',
+        
+        'terms.force_majeure.title': '11. Форс-мажор',
+        'terms.force_majeure.content': 'Мы не несем ответственности за любую задержку или невыполнение наших обязательств по этим условиям, если такая задержка или невыполнение является результатом обстоятельств вне нашего контроля, включая но не ограничиваясь: стихийными бедствиями, военными действиями, забастовками, поломками оборудования или прерываниями интернета.',
+        
+        'terms.severability.title': '12. Делимость',
+        'terms.severability.content': 'Если какое-либо положение этих Условий использования признается недействительным или неприменимым компетентным судом, другие положения останутся в полной силе и действии. Недействительное положение будет заменено действительным положением, которое наиболее близко к первоначальному намерению.',
+        
+        'terms.contact.title': '13. Свяжитесь с нами',
+        'terms.contact.intro': 'Если у вас есть вопросы или опасения относительно этих Условий использования, не стесняйтесь связаться с нами:',
+        'terms.contact.company_label': 'Компания:',
+        'terms.contact.company': 'Easy Tech Solutions SRL',
+        'terms.contact.email_label': 'Электронная почта:',
+        'terms.contact.commitment': 'Мы обязуемся оперативно отвечать на ваши запросы и прояснять любые вопросы относительно использования нашей платформы.',
+        
+        'terms.acceptance.title': '14. Принятие условий',
+        'terms.acceptance.content': 'Создавая учетную запись и используя платформу Chantierapp, вы подтверждаете, что прочитали, поняли и приняли эти Условия использования полностью. Если вы не принимаете эти условия, вы не должны использовать наш сервис.'
     }
 };
 
 window.translations = translations;
+
+// Flatten translations for easier access
+const flattenTranslations = (obj, prefix = '') => {
+    const flattened = {};
+    
+    for (const key in obj) {
+        if (typeof obj[key] === 'object' && obj[key] !== null) {
+            Object.assign(flattened, flattenTranslations(obj[key], prefix + key + '.'));
+        } else {
+            flattened[prefix + key] = obj[key];
+        }
+    }
+    return flattened;
+};
+
+// Create flattened versions for each language
+for (const lang in window.translations) {
+    window.translations[lang] = flattenTranslations(window.translations[lang]);
+}
+
+// Initialize translations when DOM is loaded
+document.addEventListener('DOMContentLoaded', updateTranslations);
