@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title data-translate="privacy.page.title">Politique de Confidentialité - Chantierapp</title>
+    <link rel="stylesheet" href="./landing-assets/styles.css">
+    <link rel="stylesheet" href="./landing-assets/privacy-styles.css">
+    <script src="./landing-assets/scripts/translations.js" defer></script>
+</head>
+<body>
+<!-- Header -->
+<header>
+    <nav class="container">
+        <div class="nav-top-row">
+            <a href="index.html" class="logo">
+                <img src="./landing-assets/images/Logo+Text.png" alt="Chantierapp" class="logo-image">
+            </a>
+            <div class="nav-right">
+                <div class="language-switcher">
+                    <button class="language-btn" onclick="toggleLanguageDropdown()">
+                        <span id="current-flag">🇫🇷</span>
+                        <span id="current-lang">FR</span>
+                        <span>▼</span>
+                    </button>
+                    <div class="language-dropdown" id="language-dropdown">
+                        <div class="language-option active" data-lang="fr" onclick="changeLanguage('fr', '🇫🇷', 'FR')">
+                            <span>🇫🇷</span> Français
+                        </div>
+                        <div class="language-option" data-lang="en" onclick="changeLanguage('en', '🇺🇸', 'EN')">
+                            <span>🇺🇸</span> English
+                        </div>
+                        <div class="language-option" data-lang="ro" onclick="changeLanguage('ro', '🇷🇴', 'RO')">
+                            <span>🇷🇴</span> Română
+                        </div>
+                        <div class="language-option" data-lang="it" onclick="changeLanguage('it', '🇮🇹', 'IT')">
+                            <span>🇮🇹</span> Italiano
+                        </div>
+                        <div class="language-option" data-lang="es" onclick="changeLanguage('es', '🇪🇸', 'ES')">
+                            <span>🇪🇸</span> Español
+                        </div>
+                        <div class="language-option" data-lang="ru" onclick="changeLanguage('ru', '🇷🇺', 'RU')">
+                            <span>🇷🇺</span> Русский
+                        </div>
+                    </div>
+                </div>
+                <button class="mobile-menu-toggle" onclick="toggleMobileMenu()">☰</button>
+            </div>
+        </div>
+
+        <ul class="nav-links">
+            <li><a href="index.html#features" data-translate="nav.features">Fonctionnalités</a></li>
+            <li><a href="index.html#benefits" data-translate="nav.benefits">Avantages</a></li>
+            <li><a href="index.html#contact" data-translate="nav.contact">Contact</a></li>
+        </ul>
+
+        <div class="nav-bottom-row">
+            <a href="https://chantierapp.com/login" class="login-btn" data-translate="nav.login">Connexion</a>
+            <a href="index.html#contact" class="cta-btn" data-translate="nav.demo">Démo Gratuite</a>
+        </div>
+    </nav>
+</header>
+
+<!-- Privacy Policy Content -->
+<main class="privacy-content">
+    <div class="container">
+        <div class="privacy-header">
+            <h1 data-translate="privacy.title">Politique de Confidentialité</h1>
+            <p class="last-updated" data-translate="privacy.last_updated">Dernière mise à jour : 1er janvier 2025</p>
+        </div>
+
+        <div class="privacy-intro">
+            <p data-translate="privacy.intro">Chez Chantierapp, nous nous engageons à protéger votre vie privée et vos données personnelles. Cette politique de confidentialité explique comment nous collectons, utilisons, stockons et protégeons vos informations lorsque vous utilisez notre plateforme de gestion de chantiers.</p>
+        </div>
+
+        <section class="privacy-section">
+            <h2 data-translate="privacy.data_collection.title">1. Données que nous collectons</h2>
+            <p data-translate="privacy.data_collection.intro">Nous collectons les types de données personnelles suivants :</p>
+            <ul>
+                <li data-translate="privacy.data_collection.name">Nom et prénom</li>
+                <li data-translate="privacy.data_collection.email">Adresse e-mail</li>
+                <li data-translate="privacy.data_collection.phone">Numéro de téléphone</li>
+                <li data-translate="privacy.data_collection.address">Adresse postale</li>
+                <li data-translate="privacy.data_collection.credentials">Identifiants de compte (nom d'utilisateur/mot de passe)</li>
+                <li data-translate="privacy.data_collection.location">Localisation précise (GPS)</li>
+            </ul>
+        </section>
+
+        <section class="privacy-section">
+            <h2 data-translate="privacy.collection_methods.title">2. Comment nous collectons vos données</h2>
+            <div class="subsection">
+                <h3 data-translate="privacy.collection_methods.direct.title">Collecte directe :</h3>
+                <ul>
+                    <li data-translate="privacy.collection_methods.direct.forms">Via les formulaires d'inscription lors de la création de votre compte</li>
+                    <li data-translate="privacy.collection_methods.direct.permissions">Via les autorisations de l'application mobile (GPS, contacts, appareil photo, etc.)</li>
+                </ul>
+            </div>
+            <div class="subsection">
+                <h3 data-translate="privacy.collection_methods.automatic.title">Collecte automatique :</h3>
+                <ul>
+                    <li data-translate="privacy.collection_methods.automatic.ip">Adresse IP</li>
+                    <li data-translate="privacy.collection_methods.automatic.device">Informations sur l'appareil</li>
+                    <li data-translate="privacy.collection_methods.automatic.location">Localisation lors de l'utilisation du site web/application</li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="privacy-section">
+            <h2 data-translate="privacy.purpose.title">3. Finalités de la collecte de données</h2>
+            <p data-translate="privacy.purpose.intro">Nous utilisons vos données personnelles pour :</p>
+            <ul>
+                <li data-translate="privacy.purpose.accounts">Créer et gérer vos comptes utilisateur</li>
+                <li data-translate="privacy.purpose.services">Fournir nos services et produits</li>
+                <li data-translate="privacy.purpose.communications">Envoyer des mises à jour, notifications ou e-mails marketing</li>
+                <li data-translate="privacy.purpose.support">Fournir un support client</li>
+                <li data-translate="privacy.purpose.improvement">Améliorer les performances du site web/application et l'expérience utilisateur</li>
+                <li data-translate="privacy.purpose.security">Assurer la sécurité et prévenir la fraude</li>
+                <li data-translate="privacy.purpose.legal">Respecter les obligations légales</li>
+                <li data-translate="privacy.purpose.geolocation">Activer les fonctionnalités basées sur la géolocalisation (services à proximité, livraison, cartes)</li>
+            </ul>
+        </section>
+
+        <section class="privacy-section">
+            <h2 data-translate="privacy.sharing.title">4. Partage des données</h2>
+            <p data-translate="privacy.sharing.content">Nous ne partageons pas vos données personnelles avec des tiers. Vos informations restent confidentielles et ne sont utilisées que dans le cadre de nos services.</p>
+        </section>
+
+        <section class="privacy-section">
+            <h2 data-translate="privacy.cookies.title">5. Cookies et technologies de suivi</h2>
+            <p data-translate="privacy.cookies.current">Actuellement, nous n'utilisons pas de cookies ou de technologies de suivi similaires.</p>
+            <p data-translate="privacy.cookies.future">Cependant, nous pourrions les implémenter à l'avenir pour améliorer votre expérience. Si cela se produit, nous vous en informerons et mettrons à jour cette politique de confidentialité en conséquence.</p>
+        </section>
+
+        <section class="privacy-section">
+            <h2 data-translate="privacy.protection.title">6. Mesures de protection des données</h2>
+            <p data-translate="privacy.protection.intro">Nous mettons en place plusieurs mesures de sécurité pour protéger vos données :</p>
+            <ul>
+                <li data-translate="privacy.protection.encryption">Transmission cryptée via HTTPS/SSL</li>
+                <li data-translate="privacy.protection.passwords">Mots de passe stockés de manière sécurisée avec hachage et salage</li>
+                <li data-translate="privacy.protection.access">Accès restreint aux données personnelles (personnel autorisé uniquement)</li>
+                <li data-translate="privacy.protection.servers">Serveurs/environnement d'hébergement sécurisés</li>
+                <li data-translate="privacy.protection.audits">Audits de sécurité et surveillance réguliers</li>
+                <li data-translate="privacy.protection.backups">Procédures de sauvegarde et de récupération des données</li>
+            </ul>
+        </section>
+
+        <section class="privacy-section">
+            <h2 data-translate="privacy.children.title">7. Protection des mineurs</h2>
+            <p data-translate="privacy.children.content">Notre site web/application n'est pas destiné aux enfants, et nous ne collectons pas sciemment de données personnelles auprès de personnes de moins de 16 ans. Si nous découvrons qu'un mineur nous a fourni des données personnelles, nous les supprimerons immédiatement.</p>
+        </section>
+
+        <section class="privacy-section">
+            <h2 data-translate="privacy.rights.title">8. Vos droits</h2>
+            <p data-translate="privacy.rights.intro">Conformément au RGPD et aux lois applicables sur la protection des données, vous avez le droit de :</p>
+            <ul>
+                <li data-translate="privacy.rights.access">Accéder à vos données personnelles</li>
+                <li data-translate="privacy.rights.correct">Corriger ou mettre à jour des données inexactes</li>
+                <li data-translate="privacy.rights.delete">Supprimer vos données personnelles ("droit à l'oubli")</li>
+                <li data-translate="privacy.rights.portability">Demander la portabilité de vos données</li>
+                <li data-translate="privacy.rights.object">Vous opposer au traitement de vos données</li>
+                <li data-translate="privacy.rights.restrict">Demander la limitation du traitement</li>
+            </ul>
+            <p data-translate="privacy.rights.exercise">Pour exercer ces droits, veuillez nous contacter à l'adresse e-mail indiquée ci-dessous.</p>
+        </section>
+
+        <section class="privacy-section">
+            <h2 data-translate="privacy.retention.title">9. Conservation des données</h2>
+            <p data-translate="privacy.retention.content">Nous conservons vos données personnelles uniquement pendant la durée nécessaire pour fournir nos services et respecter nos obligations légales. Lorsque vos données ne sont plus nécessaires, elles sont supprimées de manière sécurisée.</p>
+        </section>
+
+        <section class="privacy-section">
+            <h2 data-translate="privacy.changes.title">10. Modifications de cette politique</h2>
+            <p data-translate="privacy.changes.content">Nous pouvons mettre à jour cette politique de confidentialité de temps à autre. Toute modification sera publiée sur cette page avec une date de mise à jour révisée. Nous vous encourageons à consulter régulièrement cette politique pour rester informé de la façon dont nous protégeons vos informations.</p>
+        </section>
+
+        <section class="privacy-section">
+            <h2 data-translate="privacy.contact.title">11. Nous contacter</h2>
+            <p data-translate="privacy.contact.intro">Si vous avez des questions ou des préoccupations concernant cette politique de confidentialité ou le traitement de vos données personnelles, n'hésitez pas à nous contacter :</p>
+            <div class="contact-info">
+                <p><strong data-translate="privacy.contact.email_label">E-mail :</strong> <a href="mailto:easy.tech.solutions.srl@gmail.com">easy.tech.solutions.srl@gmail.com</a></p>
+            </div>
+            <p data-translate="privacy.contact.commitment">Nous nous engageons à répondre à vos demandes dans les plus brefs délais et à protéger vos droits en matière de confidentialité.</p>
+        </section>
+    </div>
+</main>
+
+<!-- Footer -->
+<footer>
+    <div class="container">
+        <div class="footer-content">
+            <div class="logo">
+                <img src="./landing-assets/images/Logo+Text.png" alt="Chantierapp" class="logo-image">
+            </div>
+            <ul class="footer-links">
+                <li><a href="privacy.html" data-translate="footer.privacy">Confidentialité</a></li>
+                <li><a href="#" data-translate="footer.terms">Conditions</a></li>
+                <li><a href="mailto:easy.tech.solutions.srl@gmail.com" data-translate="footer.contact">Contact</a></li>
+            </ul>
+            <p data-translate="footer.copyright">&copy; 2025 Chantierapp. Tous droits réservés.</p>
+        </div>
+    </div>
+</footer>
+
+<script src="./landing-assets/scripts/script.js"></script>
+</body>
+</html>
